@@ -14,9 +14,18 @@ const list = [
 ];
 
 // 👇🏻 Define aquí la función
-
+function studentKnowledge(){
+  const roles = list.role;
+  if (roles === 'student'){
+    console.log(list.topics);
+  } else {
+    console.log('El usuario es un profesor');
+  }
+}
 // 👆🏻
 
 // 👇🏻 Invoca la función con los usuarios "Carlos", "Maria" y "Pepe"
-
+studentKnowledge('Carlos');
+studentKnowledge('Maria');
+studentKnowledge('Pepe');
 // 👆🏻

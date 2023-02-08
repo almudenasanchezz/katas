@@ -1,8 +1,8 @@
 // Crea una función que devuelva el texto proporcionado en mayúsculas
 
 // 👇🏻 Define aquí tu función
-const toUppercase = () => {
-
+const toUppercase = (text) => {
+    console.log(text.toUpperCase());
 };
 // 👆🏻
 

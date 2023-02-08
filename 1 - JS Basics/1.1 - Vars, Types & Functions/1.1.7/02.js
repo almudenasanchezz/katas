@@ -1,8 +1,8 @@
 // Crea una función que reemplace todas las 'a' de un texto por 'i'
 
 // 👇🏻 Define aquí tu función
-const replaceA = () => {
-
+const replaceA = (text) => {
+    console.log(text.replaceAll('a','i'));
 };
 // 👆🏻
 

@@ -2,4 +2,6 @@
 // - muestra el texto utilizando alert
 // - Añade la clase "active" para darle un color especial (element.className = 'asdad')
 
-const element = document.querySelector();
+const element = document.querySelector('.element');
+alert(element.innerHTML);
+element.className = 'active';

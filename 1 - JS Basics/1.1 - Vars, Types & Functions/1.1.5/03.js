@@ -6,6 +6,3 @@ const createCounter = () => {
 }
 
 createCounter();
-
-// ❓
-console.log(counter);

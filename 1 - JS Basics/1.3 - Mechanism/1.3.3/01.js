@@ -6,5 +6,9 @@ const userList = [
 ];
 
 // 👇🏻 Añade tu lógica aquí utilizando la función map
+const userInfo = userList.map(function(element){
+  return `${element.name} tiene ${element.age} años`;
+})
 
+console.log(userInfo);
 // 👆🏻

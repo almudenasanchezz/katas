@@ -7,5 +7,7 @@ const userList = [
 ];
 
 // 👇🏻 Añade tu lógica aquí utilizando la función find
+const found = userList.find(user => user.age === 26);
+console.log(found);
 
 // 👆🏻

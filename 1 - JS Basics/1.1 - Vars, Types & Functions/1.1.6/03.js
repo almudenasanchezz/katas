@@ -15,6 +15,6 @@ const users = [
 ];
 
 // Escribe entre comillas, que crees que aparecerá en los siguiente log y descomentalo
-// console.log(users[0].age, '');
-// console.log(users.name, '');
-// console.log(users[2].name, '');
+ console.log(users[0].age, '36');
+ console.log(users.name, 'Undefined');
+ console.log(users[2].name, 'Paco');

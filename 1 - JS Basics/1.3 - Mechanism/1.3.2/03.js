@@ -3,7 +3,8 @@ const sumNumbers = (numberList) => {
   // Utiliza esta variable para ir acumulando la suma
   let counter = 0;
   // 👇🏻 Añade tu lógica aquí
-
+  for (let i = 0; i < numberList.length; i++) counter += numberList[i];
+  console.log(counter);
   // 👆🏻
 };
 

@@ -7,7 +7,6 @@ const userList = [
 
 const showUserNames = (names) => {
     // 👇🏻 Añade tu lógica aquí
-    
     // 👆🏻
 }
 

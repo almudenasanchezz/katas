@@ -7,5 +7,6 @@ const userList = [
 ];
 
 // 👇🏻 Añade tu lógica aquí utilizando la función filter
-
+const under20 = userList.filter(user => user.age < 20);
+console.log(under20);
 // 👆🏻

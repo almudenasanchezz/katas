@@ -4,4 +4,6 @@
 // 2 - Muestra su propiedad textContent
 // 3 - Cambia la propiedad textContent de el elemento
 
-const element = document.querySelector();
+const element = document.querySelector('#main-text');
+console.log(element.textContent);
+element.textContent = 'Esto es un nuevo texto';
